@@ -21,7 +21,7 @@ export default function Home() {
         <h2 className="thirdTitle">Software Engineer & Full Stack Developer</h2>
         <div className="heroButtons">
           {/* <Link className="hero_btn" href={'public\myResume.pdf'}> <a target="_blank" >My Resume</a></Link> */}
-        <a style={{textAlign:'center'}} className="hero_btn" target="_blank" download="cv" href="https://drive.google.com/file/d/14dG7KKqFvMTzqTj82kTc4FBVFB9x6uJl/view?usp=drive_link">My Resume</a>
+        <a style={{textAlign:'center'}} className="hero_btn" target="_blank" download="cv" href="https://drive.google.com/file/d/1XnD_SeZ8cCxOUjfb7l6bJ4-2y35mb4y3/view?usp=sharing">My Resume</a>
           {/* <Link className="hero_btn" href={'public\myResume.pdf'}> <button >My Resume</button></Link> */}
          
           <div     onClick={() => scrollToSection("portfolio")}  className="hero_href"><a href="#projects" >Projects</a></div>

@@ -22,8 +22,13 @@ const Carousel = () => {
   const secProj = ["/res2Img.png", "Payment Landing Page - React.js","https://github.com/Yosefha4/FrontEnd-Exercises"];
 
   const fourProj = ["/pricePlan.png", "Pricing Plan - React.Js HTML CSS","https://github.com/Yosefha4/FrontEnd-Exercises"];
+  const fifthProj = [
+    "/examCaption.png",
+    "Caption Generator - Next.js, tailwind, AWS, ",
+    "https://captions-generator-rho.vercel.app/",
+  ];
 
-  const itemsData = [firstProj, secProj, thirdProj, fourProj];
+  const itemsData = [fifthProj,thirdProj, secProj,firstProj, fourProj];
   // console.log("firstItem: " + firstProj[0], firstProj[1])
   // console.log(firstProj[0])
 

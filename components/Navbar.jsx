@@ -24,10 +24,12 @@ const Navbar = () => {
     <nav>
       <div className="navbar_container">
         <div className="social">
-          <div>
+          {/* <div>
             <Image className="navImg" src={MyImage} alt="profileImg" />
-          </div>
+          </div> */}
           <h1 className="name">Yosef Haimjan</h1>
+          <h2 className="secTitle" >Software Engineer</h2>
+          <h3 className="secTitle">FS Developer</h3>
           <div className="social-links">
             <a
               className="eachLink"
@@ -68,24 +70,6 @@ const Navbar = () => {
 
             <Link href="#" className="navLnk">Home</Link>
           </div>
-          <div className="navbar-link" onClick={() => scrollToSection("about")}>
-            <div className="icon">
-              <IoPerson />
-            </div>
-
-            <Link href="#" className="navLnk">About</Link>
-          </div>
-          {/* <div
-            className="navbar-link"
-            onClick={() => scrollToSection("resume")}
-          >
-            <div className="icon">
-              {" "}
-              <FaFile />
-            </div>
-
-            <Link href="#">Resume</Link>
-          </div> */}
           <div
             className="navbar-link"
             onClick={() => scrollToSection("portfolio")}
@@ -95,6 +79,15 @@ const Navbar = () => {
             </div>
             <Link href="#" className="navLnk">Portfolio</Link>
           </div>
+          <div className="navbar-link" onClick={() => scrollToSection("about")}>
+            <div className="icon">
+              <IoPerson />
+            </div>
+
+            <Link href="#" className="navLnk">About</Link>
+          </div>
+     
+       
           <div
             className="navbar-link"
             onClick={() => scrollToSection("contact")}

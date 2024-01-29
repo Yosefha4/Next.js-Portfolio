@@ -27,18 +27,23 @@ const Protfolio = () => {
     "Pricing Plan - React.Js HTML CSS",
     "https://github.com/Yosefha4/FrontEnd-Exercises",
   ];
+  const fifthProj = [
+    "/examCaption.png",
+    "Caption Generator - Next.js, tailwind, AWS, ",
+    "https://captions-generator-rho.vercel.app/",
+  ];
 
-  const itemsData = [firstProj, secProj, thirdProj, fourProj];
+  const itemsData = [firstProj, secProj, thirdProj, fourProj, fifthProj];
 
   return (
     <div className="portfolio">
       <div className="top-portf">
         <h1 className="porTitle">Recent Works</h1>
-        <p style={{ color: "#47626D" }} className="portDesc">
+        {/* <p style={{ color: "#47626D" }} className="portDesc">
           In the dynamic world of full-stack development, I specialize in
           creating seamless & fully-responsive websites using Python,
           JavaScript, React, Node.js, CSS, and HTML.
-        </p>
+        </p> */}
       </div>
       <div className="container_carusel">
         <Carousel />
