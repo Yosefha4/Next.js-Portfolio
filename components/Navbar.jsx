@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import MyImage from "../public/myImgNoBg.png";
+// import MyImage from "../public/myImgNoBg.png";
 import { FaHome } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { FaBookOpen } from "react-icons/fa";
