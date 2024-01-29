@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import HeroImg from "../app/airobot.png"
+import HeroImg from "../app/assets/airobot.png"
 import Link from "next/link";
 
 export default function Home() {
